@@ -1,0 +1,46 @@
+:root {
+    --brown: #CBAE56;
+}
+
+body {
+    font-family: 'Lobster', cursive;
+}
+/* carousel card design */
+.carousel-card {
+    height: 280px;
+    /* width: 230px; */
+    border-radius: 6px;
+    padding: 10px;
+    background-color: var(--brown);
+}
+.carousel-card>div {
+    height: 100%;
+    width: 100%;
+}
+.carousel-card>div>h6 {
+    margin-top: 7px;
+}
+.carousel-card>div>p>a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+  }
+  
+  .owl-prev {
+    left: -5%; /* Adjust the left position */
+  }
+  
+  .owl-next {
+    right: -5%; /* Adjust the right position */
+  }
